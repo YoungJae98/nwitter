@@ -39,10 +39,10 @@ const Home = () => {
           value={nweet}
           onChange={onChange}
           type="text"
-          placeholder="What's on your mind?"
+          placeholder="What's on your mind??"
           maxLength={120}
         />
-        <input type="submit" value="Nweet" />
+        <input type="submit" value="Nweets" />
       </form>
       <div>
         {nweets.map((nweet) => (
